@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Create",
+      "setup": "",
+      "run": "gcc test.c; ./a.out 0 | tail -n1 ",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Top",
+      "setup": "",
+      "run": "gcc test.c; ./a.out 1 | tail -n1 ",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Push",
+      "setup": "",
+      "run": "gcc test.c; ./a.out 2 | tail -n1 ",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Pop",
+      "setup": "",
+      "run": "gcc test.c; ./a.out 3 | tail -n1 ",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
