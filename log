@@ -28,3 +28,9 @@ Sat Oct 24 22:52:18 UTC 2020:
  tests:  6|2
 total_score: 35/70
 f26e806
+Sat Oct 24 22:57:45 UTC 2020: 
+ heap.c | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+ tests:  6|2
+total_score: 35/70
+aa41dec

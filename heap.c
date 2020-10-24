@@ -18,11 +18,7 @@ typedef struct Heap{
 
 
 void* heap_top(Heap* pq){
-  Heap * aux = pq;
-  while (aux -> size > 1) {
-    aux -> size = aux -> size - 1;
-  }
-  return aux -> heapArray;
+  return pq -> heapArray[0].data;
 }
 
 
